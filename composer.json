@@ -1,0 +1,23 @@
+{
+    "name": "stati/youtube",
+    "description": "A youtube video plugin for Stati",
+    "authors": [
+        {
+            "name": "jfoucher",
+            "email": "jfoucher@6px.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Stati\\Plugin\\Youtube\\": "src/", "Stati\\Plugin\\Youtube\\Tests\\": "tests/"}
+    },
+    "require": {
+        "php": "^7.2",
+        "norkunas/youtube-dl-php": "^1.2"
+    },
+    "suggest": {
+        "stati/stati": "An extensible, jekyll-compatible PHP static site generator"
+    },
+    "bin": ["build/youtube.phar"],
+    "license": "MIT",
+    "homepage": "https://stati.jfoucher.com"
+}
