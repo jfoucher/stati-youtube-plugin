@@ -5,6 +5,7 @@
   ],
   "files": [
   ],
+   "force-autodiscovery": true,
   "finder": [
     {
       "name": "*.php",
@@ -12,6 +13,7 @@
       "in": "vendor"
     }
   ],
+
   "git-version": "package_version",
   "main": "vendor/autoload.php",
   "output": "build/youtube.phar",
